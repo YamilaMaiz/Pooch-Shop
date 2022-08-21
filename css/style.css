@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*INDEX*/
+header {
+    width: 100%;
+    height: 25%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.418);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo_icono {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.logo_icono img {
+    height: 40px;
+    width: 60px;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+nav a {
+    font-weight: 600;
+    padding-right: 20px;
+}
+nav a:hover {
+    color: rgb(107, 104, 106);
+}
+.menu {
+    display: flex;
+}
+h1 {
+    display: flex;
+    font-family: 'Shrikhand', cursive;
+    font-size: 30px;
+}
+.menu_item {
+    font-size: 20px;
+    font-family: 'Akshar', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+.imagenInicio img {
+    height: 80%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.elegidos h2 {
+    text-align: center;
+    font-family: 'Akshar', sans-serif;
+    font-size: 25px;
+}
+.elegidos {
+    display: flex;
+    justify-content: center;
+}
+.los_mas_elegidos {
+    text-align:center;
+    font-family: 'Akshar', sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 60px 0 90px;
+    flex-wrap: wrap;
+}
+.los_mas_elegidos div img {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+.los_mas_elegidos2 {
+    text-align:center;
+    font-family: 'Akshar', sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 60px 0 90px;
+    flex-wrap: wrap;
+}
+.los_mas_elegidos2 div img {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+.los_mas_elegidos a:hover {
+    color: rgb(107, 104, 106);
+}
+.los_mas_elegidos2 a:hover {
+    color: rgb(107, 104, 106);
+}
+.ver_mas {
+    margin-top: 30px;
+    font-family: 'Akshar', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-left: 27px;
+}
+.ver_mas a:hover {
+    color: rgb(107, 104, 106);
+}
+.ver_mas a {
+    text-decoration: none;
+    color: #2ab9e9;
+    font-size: 17px;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: #81e5f978;
+    background-color:#81e5f978;
+}
+.etc {
+    font-family: 'Akshar', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0 20px 0;
+    text-align: center;
+    background-color: #d6d1d195;
+    width: 100%;
+    height: 150px;
+    padding: 0 150px 0 150px;
+}
+.icono img {
+    height: 20%;
+    width: 20%;
+    margin: 3px 10px 3px 10px;
+}
+.icono2 img {
+    height: 20%;
+    width: 20%;
+    margin: 3px 10px 3px 10px;
+}
+.icono3 img {
+    height: 20%;
+    width: 20%;
+    margin: 3px 10px 3px 10px;
+}
+.navegacion {
+    display: flex;
+    align-items: center;
+}
+.nav img {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+.busqueda {
+    display: flex;
+    align-items: center;
+}
+.redes {
+    display: flex;
+    margin-left: 40px;
+}
+.red img {
+    height: 35px;
+    width: 35px;
+}
+.red2 img {
+    height: 50px;
+    width: 50px;
+}
+.foot {
+    background-image: url(../img/Sin\ título.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Akshar', sans-serif;
+    padding: 10px 10px 0 10px;
+}
+.boton_arrepentimiento a {
+    text-decoration: none;
+    color: black;
+}
+.medios_pago img {
+    height: 20px;
+    width: 30px;
+    margin: 10px 10px 10px 10px;
+}
+.consultas p {
+    background-color: white;
+    color: rgb(78, 78, 85);
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+/*PRODUCTOS*/
+.ini_prod {
+    display: flex;
+    justify-content: left;
+}
+.section_productos{
+    display: flex;
+}
+.categorias a:hover {
+    color: rgb(107, 104, 106);
+}
+.articulo a:hover {
+    color: rgb(107, 104, 106);
+}
+.categorias {
+    width: 20%;
+    margin: 10px 20px 10px 20px;
+}
+.categorias h2 {
+    font-family: 'Akshar', sans-serif;
+    margin: 10px;
+    padding-left: 15px;
+}
+.categorias ul{
+    list-style: none;
+}
+.categorias a{
+    font-family: 'Akshar', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.articulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+.articulo article {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    border: rgb(255, 255, 255) 2px solid;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    border-radius: 10px;
+}
+.comprar a:hover {
+    color: rgb(107, 104, 106);
+}
+.comprar a {
+    text-decoration: none;
+    color: #2ab9e9;
+    font-size: 17px;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: #81e5f978;
+    background-color:#81e5f978;
+}
+.articulo-productos button {
+    border: 2px solid;
+    background-color: #81e5f979;
+    color: black;
+    padding: 3px;
+    border-radius: 10px;
+    border-color: #81e5f979;
+}
+.articulo-productos {
+    font-family: 'Akshar', sans-serif;
+    margin: 10px 30px 10px 30px;
+    text-align: center;
+}
+.articulo-productos img {
+    border: 2px solid;
+    border-color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+.articulo-productos a {
+    text-decoration: none;
+    color: black;
+}
+.flech_aba {
+    display: flex;
+    justify-content: center;
+}
+
+/*INICIAR SESIÓN*/
+.ini-ses h2 {
+    display: flex;
+    margin-left: 10px;
+}
+.form_inicio_sesion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.form_inicio_sesion h3 {
+    display: flex;
+    justify-content: center;
+}
+.form_inicio_sesion h4 {
+    height: 25px;
+    width: 400px;
+    border: 1px solid;
+    margin-top: 10px;
+}
+.olvi {
+    text-align: center;
+}
+.olvi a:hover {
+    color: rgb(107, 104, 106);
+}
+.olvidaste-crear {
+    margin-bottom: 10px;
+}
+.olvidaste-crear2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 180px;
+}
+.olvidaste-crear2 h4 {
+    padding-right: 5px;
+}
+.olvidaste-crear2 a:hover {
+    color: rgb(107, 104, 106);
+}
+.iniciar {
+    display: inline-block;
+    margin: 5px 0 10px 0;
+    border: 2px solid;
+    padding: 5px;
+    border-color: black;
+}
+.iniciar a:hover {
+    color: rgb(107, 104, 106);
+}
+main {
+    font-family: 'Akshar', sans-serif;
+}
+
+/*BOTÓN DE ARREPENTIMIENTO*/
+.solicitud h3 {
+    margin: 20px 0 20px 40px;
+}
+.form_arrep {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.form_arrep h3 {
+    height: 25px;
+    width: 400px;
+    border: 1px solid;
+}
+.enviar {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 40px 0;  
+}
+.enviar a{
+    border: 2px solid;
+    border-color: black;
+    padding: 5px;
+}
+.enviar a:hover {
+    color: rgb(107, 104, 106);
+}
+
+/*CARRITO*/
+.carrito h2 {
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}
+.carro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.carro h3 {
+    font-size: 30px;
+}
+.no-sabes h4 {
+    display: flex;
+}
+.volver-tienda {
+    padding: 20px;
+    text-decoration-line: underline;
+}
+.volver {
+    margin: 30px 30px 30px 30px;
+}
+.volver a:hover {
+    color: rgb(107, 104, 106);
+}
+.interes h3 {
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.imag {
+    text-align:center;
+    font-family: 'Akshar', sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 60px 80px 90px;
+    flex-wrap: wrap;
+}
+.imag div img {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 17px;
+    border: 2px solid;
+    padding: 10px;
+    border-color: rgb(107, 104, 106);
+}
+.imag a:hover {
+    color: rgb(107, 104, 106);
+}
+.flecha img {
+    width: 100px;
+    height: 100px;
+}
+.carrito {
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.carrito h2{
+    width: 150px;
+    display: inline-block;
+    border-bottom: 1px solid;
+    border-color: black;
+}
+.interes h3 {
+    margin-top: 10px;
+}
+
+/*BLOG*/
+.medida {
+    display: flex;
+    justify-content: center;
+}
+.contenedor-medidas {
+    height: 1100px;
+    width: 1400px;
+    margin: auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "caja1 caja2 caja3"
+        "caja4 caja4 caja4";
+    gap: 0.5rem;
+}
+.tit h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+}
+.caja {
+    border: rgba(255, 255, 255, 0.337) solid;
+    border-radius: 15px;
+}
+.item-med1 {
+    grid-area: caja1;
+    background-image: url(../img/medir-vestir.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.item-med2 {
+    grid-area: caja2;
+    background-image: url(../img/medida-arnes.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.item-med3 {
+    grid-area: caja3;
+    background-image: url(../img/medir-transporte.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.item-med4 {
+    grid-area: caja4;
+    background-image: url(../img/medir-cama.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.tip {
+    display: flex;
+    justify-content: center;
+}
+.contenedor-tips {
+    height: 1100px;
+    width: 1400px;
+    margin: auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "tip1 tip2 tip3"
+        "tip4 tip5 tip6";
+    gap: 0.5rem;
+}
+.caja1 {
+    border: rgba(255, 255, 255, 0.337) solid;
+    border-radius: 15px;
+}
+.tip1 {
+    grid-area: tip1;
+    background-image: url(../img/tip1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.tip2 {
+    grid-area: tip2;
+    background-image: url(../img/tip3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.tip3 {
+    grid-area: tip3;
+    background-image: url(../img/tip2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.tip4 {
+    grid-area: tip4;
+    background-image: url(../img/tip6.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.tip5 {
+    grid-area: tip5;
+    background-image: url(../img/tiip.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.tip6 {
+    grid-area: tip6;
+    background-image: url(../img/tip5.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+/*MEDIA QUERIES INICIO*/
+@media screen and (max-width: 950px) {
+    .logo_icono h1 {
+        display: none;
+    }
+}
+@media screen and (max-width: 450px) {
+    .imagenInicio img {
+        height: 80%;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .foot {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 840px) {
+    .etc .icono {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .etc .icono2 {
+        display: none;
+    }
+    .etc .icono3 {
+        display: none;
+    }
+}
+/*MEDIA QUERIES PRODUCTOS*/
+@media screen and (max-width: 720px) {
+    .categorias {
+        display: none;
+    }
+}
