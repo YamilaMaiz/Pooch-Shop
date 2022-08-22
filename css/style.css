@@ -64,46 +64,55 @@ h1 {
 }
 .elegidos h2 {
     text-align: center;
-    font-family: 'Akshar', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
 }
-.elegidos {
+.eleg {
     display: flex;
     justify-content: center;
-}
-.los_mas_elegidos {
-    text-align:center;
-    font-family: 'Akshar', sans-serif;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 60px 0 90px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     flex-wrap: wrap;
 }
-.los_mas_elegidos div img {
-    height: 150px;
-    width: 150px;
-    border-radius: 15px;
-}
-.los_mas_elegidos2 {
-    text-align:center;
-    font-family: 'Akshar', sans-serif;
-    background-color: white;
+.eleg article {
     display: flex;
-    justify-content: space-around;
-    margin: 0 60px 0 90px;
-    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    border: rgb(255, 255, 255) 2px solid;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    border-radius: 10px;
 }
-.los_mas_elegidos2 div img {
-    height: 150px;
-    width: 150px;
-    border-radius: 15px;
+.elegido-productos button {
+    border: 2px solid;
+    background-color: #959090d5;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    border-radius: 5px;
+    border-color: #959090d5;
 }
-.los_mas_elegidos a:hover {
-    color: rgb(107, 104, 106);
+.elegido-productos {
+    font-family: 'Akshar', sans-serif;
+    margin: 10px 30px 10px 30px;
+    text-align: center;
+    transition: transform 1s;
 }
-.los_mas_elegidos2 a:hover {
-    color: rgb(107, 104, 106);
+.elegido-productos:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.elegido-productos img {
+    border: 2px solid;
+    border-color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+.elegido-productos a {
+    text-decoration: none;
+    color: black;
 }
 .ver_mas {
     margin-top: 30px;
@@ -113,17 +122,18 @@ h1 {
     margin-left: 27px;
 }
 .ver_mas a:hover {
-    color: rgb(107, 104, 106);
+    color: rgba(0, 0, 0, 0.429);
 }
 .ver_mas a {
     text-decoration: none;
-    color: #2ab9e9;
+    color: white;
     font-size: 17px;
     border: 2px solid;
-    padding: 10px;
-    border-radius: 15px;
-    border-color: #81e5f978;
-    background-color:#81e5f978;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #95909091;
+    transition: all 0.5s;
 }
 .etc {
     font-family: 'Akshar', sans-serif;
@@ -233,14 +243,14 @@ h1 {
     text-decoration: none;
     color: black;
 }
-.articulo {
+.art {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
     flex-wrap: wrap;
 }
-.articulo article {
+.art article {
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
@@ -252,12 +262,9 @@ h1 {
     align-items: center;
     border-radius: 10px;
 }
-.comprar a:hover {
-    color: rgb(107, 104, 106);
-}
 .comprar a {
     text-decoration: none;
-    color: #2ab9e9;
+    color: #d8dadb;
     font-size: 17px;
     border: 2px solid;
     padding: 10px;
@@ -267,16 +274,21 @@ h1 {
 }
 .articulo-productos button {
     border: 2px solid;
-    background-color: #81e5f979;
-    color: black;
+    background-color: #959090d5;
+    color: rgb(255, 255, 255);
     padding: 3px;
-    border-radius: 10px;
-    border-color: #81e5f979;
+    border-radius: 5px;
+    border-color: #959090d5;
 }
 .articulo-productos {
     font-family: 'Akshar', sans-serif;
     margin: 10px 30px 10px 30px;
     text-align: center;
+    transition: transform 1s;
+}
+.articulo-productos:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .articulo-productos img {
     border: 2px solid;
@@ -336,15 +348,19 @@ h1 {
 .olvidaste-crear2 a:hover {
     color: rgb(107, 104, 106);
 }
-.iniciar {
+.iniciar a {
     display: inline-block;
     margin: 5px 0 10px 0;
     border: 2px solid;
     padding: 5px;
-    border-color: black;
+    color: white;
+    background-color: #95909091;
+    border-radius: 5px;
+    border-color: transparent;
+    transition: all 0.5s;
 }
 .iniciar a:hover {
-    color: rgb(107, 104, 106);
+    color: rgba(0, 0, 0, 0.429);
 }
 main {
     font-family: 'Akshar', sans-serif;
@@ -418,30 +434,64 @@ main {
     font-size: 20px;
     margin-bottom: 20px;
 }
-.imag {
+.interesart {
     text-align:center;
     font-family: 'Akshar', sans-serif;
     background-color: white;
     display: flex;
     justify-content: space-around;
-    margin: 0 60px 80px 90px;
     flex-wrap: wrap;
 }
-.imag div img {
-    height: 150px;
-    width: 150px;
-    border-radius: 15px;
-    font-size: 17px;
-    border: 2px solid;
-    padding: 10px;
-    border-color: rgb(107, 104, 106);
+.int {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
 }
-.imag a:hover {
-    color: rgb(107, 104, 106);
+.int article {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    border: rgb(255, 255, 255) 2px solid;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    border-radius: 10px;
+}
+.interesar button {
+    border: 2px solid;
+    background-color: #959090d5;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    border-radius: 5px;
+    border-color: #959090d5;
+}
+.interesar {
+    font-family: 'Akshar', sans-serif;
+    margin: 10px 30px 10px 30px;
+    text-align: center;
+    transition: transform 1s;
+}
+.interesar:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.interesar img {
+    border: 2px solid;
+    border-color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+.interesar a {
+    text-decoration: none;
+    color: black;
 }
 .flecha img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
 }
 .carrito {
     margin-top: 25px;
@@ -455,6 +505,7 @@ main {
 }
 .interes h3 {
     margin-top: 10px;
+    font-size: 25px;
 }
 
 /*BLOG*/
@@ -614,3 +665,4 @@ main {
         display: none;
     }
 }
+
